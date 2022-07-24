@@ -1,0 +1,26 @@
+:root {
+    --primary-color:#809A6f;
+    --second-color:#A25B5B;
+    --third-color:#CC9C75;
+    --fourth-color:#D5D8B5; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--third-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
