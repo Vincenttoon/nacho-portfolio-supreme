@@ -70,30 +70,50 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(247, 215, 22, 0.5);
 }
 
+header nav ul li a:hover {
+    color: var(--primary-color);
+    background-color: var(--third-color);
+    border-radius: 15px;
+}
+
 /* End Header */
 
 /* Start Hero */
 
+
+.image-container {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    object-fit: cover;
+}
+
 .hero {
-    background-image: url("../images/guitar_me.jpg");
+    background-image: url(../images/guitar_me.jpg);
     background-size: cover;
-    position:sticky;
+    position: relative;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     flex-wrap: wrap;
-    background-attachment:fixed;
+    align-items: flex-start;
+    background-attachment: fixed;
     background-position: 80%;
-    padding-top: 50px;
     padding-bottom: 600px;
 }
 
 .hero h2 {
     font-size: 30px;
     margin: 0;
-    position: absolute; bottom: 0; right: 0;
     color: var(--fourth-color);
     text-shadow: 0 0 10px rgba(41, 52, 98, 0.5);
     padding-right: 10px;
+    position: absolute; bottom: 0px; right: 0px;
 }
 
 /* End Hero */
@@ -129,6 +149,9 @@ header nav ul li a {
     flex: auto;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 95%;
+    margin: 25px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 
 }
 
@@ -143,25 +166,50 @@ header nav ul li a {
 
 /* Start Work */
 
-.working-web img {
+.working-web {
+    color: var(--primary-color);
+    background-color: var(--second-color);
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 25px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.imgs {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.run-buddy img {
+    position: relative;
+    width: 50%;
+    height: 400px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.run-buddy-txt {
+
+
+}
+
+.horiseon img {
+    width: 200px;
+    height: 150px;
+}
+
+.portfolio img {
+    position: relative;
     width: 30%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: auto;
-    text-align: center;
-    flex-direction: column;
+    height: 150px;
 }
 
-.img-to-run-buddy {
-    float: left;
-}
-
-/* Contact */
-
-
+/* Contact Footer*/
 footer {
     background: #F24C4C;
     padding-top: 20px;
@@ -185,4 +233,9 @@ address {
     color: var(--primary-color);
     width: 100%;
     text-align: center;
+}
+
+address a:hover {
+    color: var(--third-color);
+    background-color: var(--primary-color);
 }
