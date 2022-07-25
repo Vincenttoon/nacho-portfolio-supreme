@@ -70,5 +70,30 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(247, 215, 22, 0.5);
 }
 
+/* End Header */
+
+/* Start Hero */
+
+.hero {
+    background-image: url();
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin: 0;
+    position: absolute; bottom: 0; right: 0;
+    text-shadow: 0 0 10px rgba(247, 215, 22, 0.5);;
+}
+
 
 
