@@ -75,7 +75,7 @@ header nav ul li a {
 /* Start Hero */
 
 .hero {
-    background-image: url();
+    background-color: #F24C4C;
     background-size: cover;
     position: relative;
     display: flex;
@@ -92,8 +92,41 @@ header nav ul li a {
     font-size: 30px;
     margin: 0;
     position: absolute; bottom: 0; right: 0;
-    text-shadow: 0 0 10px rgba(247, 215, 22, 0.5);;
+    text-shadow: 0 0 10px rgba(41, 52, 98, 0.5);
+    color: #293462;
 }
 
+/* End Hero */
 
+/* Start About Me */
+
+.personal-info {
+    text-align: center;
+    background: #293462;
+    flex: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.personal-info h2 {
+    text-decoration: underline;
+    text-decoration-color: var(--third-color);
+    font-size: 40px;
+    text-shadow: 0 0 10px rgba(247, 215, 22, 0.5);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.personal-info img {
+    width: auto;
+    max-height: 300px;
+    flex: auto;
+}
+
+.personal-info p {
+
+}
 
