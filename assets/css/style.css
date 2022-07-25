@@ -77,23 +77,22 @@ header nav ul li a {
 .hero {
     background-image: url("../images/guitar_me.jpg");
     background-size: cover;
-    position:relative;
+    position:sticky;
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-position: 80%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 600px;
 }
 
 .hero h2 {
     font-size: 30px;
     margin: 0;
     position: absolute; bottom: 0; right: 0;
+    color: var(--fourth-color);
     text-shadow: 0 0 10px rgba(41, 52, 98, 0.5);
-    color: #293462;
     padding-right: 10px;
 }
 
