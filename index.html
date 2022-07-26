@@ -26,14 +26,6 @@
             </nav>
         </header>
     
-    <!-- Hero Section -->
-        <section class="hero">
-                <div class="image-container">
-                    <h2>Everything so far.</h2>
-                </div>
-        </section>
-    <!-- End Hero Section -->
-    
     <!-- About Me Section -->
         <section id="about-me" class="personal-info">
             <div class="flex-row">
@@ -42,18 +34,26 @@
                 </h2>
             </div>
             <!-- About Me text -->
-            <div class="me-text">
-                <p>
-                    Born and raised in Collinsville, IL. Spent my entire adult life working in the beer industry. I've been a bartender, bar manager, brewery representative, sales for distribution and even brewed a little beer. I've made a million memories over the years and have learned so much along the way.
-                </p>
-                <br>
-                <p>
-                    Alas, it is time for a change. I don't have much experience coding, but I did take a few data analysis courses in college that gave me a slight understanding in some of the practices behind it.
-                </p>
-                <br>
-                <p>
-                    Now learning several new languages through the Bootcamp offered through Wash U, I am ready to take on this challenge. While this will be a huge undertaking as I balance work, I am excited to learn a new language and make myself marketable for future employers!
-                </p>
+            <div class="profile">
+
+                <div class="profile-image">
+                    <img src="./assets/images/me_pic.jpg" alt="me pic" class="ab-pic" />
+                </div>
+
+
+                <div class="profile-text">
+                    <p>
+                        Born and raised in Collinsville, IL. Spent my entire adult life working in the beer industry. I've been a bartender, bar manager, brewery representative, sales for distribution and even brewed a little beer. I've made a million memories over the years and have learned so much along the way.
+                    </p>
+                    <br>
+                    <p>
+                        Alas, it is time for a change. I don't have much experience coding, but I did take a few data analysis courses in college that gave me a slight understanding in some of the practices behind it.
+                    </p>
+                    <br>
+                    <p>
+                        Now learning several new languages through the Bootcamp offered through Wash U, I am ready to take on this challenge. While this will be a huge undertaking as I balance work, I am excited to learn a new language and make myself marketable for future employers!
+                    </p>
+                </div>
             </div>
         </section>
     <!-- End About Me Section  -->
@@ -66,10 +66,9 @@
                 </h2>
             </div>
             <!-- Run Buddy -->
-            <div class="imgs">
-                <div class="run-buddy">
+            <div class="work-parent">
+                <div class="run-buddy shared-work">
                     <a href="https://vincenttoon.github.io/run-buddy-new/">
-                    <img src="./assets/images/hero-bg.jpg" alt="runner tieing shoe">
                         <div class="run-buddy-txt">
                             <h4>Run Buddy</h4>
                             <p>HTML/CSS</p>
@@ -77,9 +76,8 @@
                     </a>
                 </div>
                 
-                <div class="horiseon">
+                <div class="horiseon shared-work">
                     <a href="https://vincenttoon.github.io/horiseon-zero-dawn/">
-                    <img src="./assets/images/digital-marketing-meeting.jpg" alt="team members collaborating around table">
                         <div class="horiseon-txt">
                             <h4>Horiseon</h4>
                             <p>HTML/CSS</p>
@@ -87,16 +85,14 @@
                     </a>
                 </div>
 
-                <div class="portfolio">
+                <div class="portfolio shared-work">
                     <a href="https://github.com/Vincenttoon/nacho-portfolio-supreme/">
-                    <img src="./assets/images/guitar_me.jpg" alt="me shredding again">
                         <div class="portfolio-txt">
-                              <h4>Portolio</h4>
-                                <p>HTML/CSS</p>
+                            <p>Portfolio</p>
+                            <p>HTML/CSS</p>
                         </div>
                     </a>
                 </div>
-
             </div>
         </section>
         <!-- End Work Section -->
@@ -104,7 +100,7 @@
          <!-- Contact Section -->
          <!-- End Contact Section -->
 
-         <footer id="contact-info">
+         <section id="contact-info" class="reach-me">
             <div class="flex-row">
                 <h2>
                     Contact Info:
@@ -116,7 +112,7 @@
                 Github: <a href="https://github.com/Vincenttoon">Vincent Toon</a>
             </address>
             
-         </footer>
+         </section>
     </body>
     
 </html>

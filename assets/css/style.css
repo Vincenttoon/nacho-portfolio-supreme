@@ -142,20 +142,39 @@ header nav ul li a:hover {
     padding-bottom: 30px;
     padding-top: 10px;
 }
+/* fix this*/
 
+/* About Me section */
+
+.profile {
+    display: flex;
+    align-items: center;
+}
 .personal-info {
     color: var(--primary-color);
     background-color: var(--second-color);
     flex: auto;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: row;
     width: 95%;
     margin: 25px auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 
 }
 
+.ab-pic {
+    display: flex;
+    width: auto;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 40%;
+    border-style:double;
+}
+
+
 .personal-info p {
+    display: flex;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -177,50 +196,56 @@ header nav ul li a:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-.imgs {
+.work-parent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
+    min-height: 100%;
 }
 
-.run-buddy img {
-    position: relative;
-    width: 50%;
+.shared-work {
+    background-size: cover;
+    background-position: center;
+    display: flex;
     height: 400px;
-    align-items: center;
-    padding-left: 20px;
 }
 
-.run-buddy-txt {
-
-
+.run-buddy {
+    background: url(../images/hero-bg.jpg);
+    width: 100%;
+    height: 400px;
+    margin: 25px auto;
 }
 
 .horiseon img {
-    width: 200px;
-    height: 150px;
+    background-image: url(./images/digital-marketing-meeting.jpg);
+    width: 100%;
+    height: 400px;
 }
 
 .portfolio img {
-    position: relative;
-    width: 30%;
-    height: 150px;
+    background-image: url(../images/guitar_me.jpg);
+    width: 100%;
+    height: 200px;
 }
 
+
 /* Contact Footer*/
-footer {
+.reach-me {
     background: #F24C4C;
     padding-top: 20px;
     font-size: 20px;
     padding-bottom: 20px;
+    margin: 25px auto;
+    width: 95%;
 }
 
-footer h2 {
+.reach-me h2 {
     color: var(--primary-color);
     padding-left: 10px;
     padding-right: 20px;
+    padding-bottom: 20px;
     text-align: center;
     text-shadow: 0 0 10px rgba(236, 155, 59, 0.8);
     text-decoration: underline;
