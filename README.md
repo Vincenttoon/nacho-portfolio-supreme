@@ -11,7 +11,7 @@ Create a personal portfolio from scratch. This portfolio displays hover function
 
 ## Deployment Team
 
-[Vincent Toon)](https://github.com/Vincenttoon)
+[Vincent Toon](https://github.com/Vincenttoon)
 
 ### User Story
  - AS AN employer
