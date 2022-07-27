@@ -18,8 +18,8 @@ body {
 }
 
 section {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Header Style */
@@ -78,46 +78,6 @@ header nav ul li a:hover {
 
 /* End Header */
 
-/* Start Hero */
-
-
-.image-container {
-    padding: 0;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.image-container img {
-    width: 100%;
-    height: 400px;
-    padding: 0;
-    object-fit: cover;
-}
-
-.hero {
-    background-image: url(../images/guitar_me.jpg);
-    background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-    padding-bottom: 600px;
-}
-
-.hero h2 {
-    font-size: 30px;
-    margin: 0;
-    color: var(--fourth-color);
-    text-shadow: 0 0 10px rgba(41, 52, 98, 0.5);
-    padding-right: 10px;
-    position: absolute; bottom: 0px; right: 0px;
-}
-
-/* End Hero */
-
 /* Shared Features*/
 
 .section-title {
@@ -174,6 +134,7 @@ header nav ul li a:hover {
 
 .personal-info p {
     display: flex;
+    flex: wrap;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
@@ -184,40 +145,36 @@ header nav ul li a:hover {
 
 /* Start Work */
 
-.live-links {
+.photo-link {
     width: 80%;
     min-height: 100%;
     margin: 4vh auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-radius: 5%;
 }
 
-.live-links-rb {
+.photo-link-rb {
     background: url(../images/hero-bg.jpg);
     width: 98%;
-    border-radius: 5%;
     position: relative;
 }
 
-.live-links-hori {
+.photo-link-hori {
     background: url(../images/digital-marketing-meeting.jpg);
     width: 35%;
     margin: 20px 0.6rem;
-    border-radius: 5%;
     position: relative;
 }
 
-.live-links-port {
+.photo-link-port {
     background: url(../images/guitar_me.jpg);
     width: 35%;
     margin: 20px 0.6rem;
-    border-radius: 5%;
     position: relative;
 }
 
-.live-links-box {
+.photo-link-box {
     display: flex;
     background-size: cover;
     background-position: center;
@@ -226,7 +183,7 @@ header nav ul li a:hover {
     position: relative;
 }
 
-.live-links-text {
+.photo-link-text {
     margin: auto;
     width: 20%;
     height: 100px;
@@ -246,7 +203,7 @@ header nav ul li a:hover {
     font-size: 15px;
 }
 
-.live-links-text a button {
+.photo-link-text a button {
     padding: 10px 15px;
     background-color: rgba(162, 91, 91, 0.6);
     background-repeat: no-repeat;
@@ -256,7 +213,10 @@ header nav ul li a:hover {
     position:absolute;
     right: 0;
     bottom: 0;
-    border-radius: 10%;
+}
+
+.photo-link-text a button:hover {
+    background-color: var(--second-color);
 }
 
 /* End Work Section */
@@ -293,8 +253,85 @@ address {
 }
 
 address a:hover {
-    color: var(--third-color);
-    background-color: var(--primary-color);
+    color: var(--fourth-color);
+    background-color: var(--third-color);
 }
 
 /* End Contact Section */
+
+@media screen and (max-width: 980px) {
+    
+    .photo-link-hori {
+        width: 45%;
+    }
+
+    .photo-link-port {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ab-pic {
+        margin-bottom: 20px;
+    }
+
+    address {
+        font-size: 16px;
+    }
+
+    header {
+        display: block;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    header nav ul li a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: -30px;
+        font-size: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .photo-link-rb {
+        margin-bottom: 20px;
+    }
+
+    .photo-link-hori {
+        width: 90%;
+    }
+
+    .photo-link-port {
+        width: 90%;
+    }
+    
+    address {
+        font-size: 18px;
+    }
+
+    header h1 {
+        margin-left: 15px;
+    }
+
+    header nav ul li a {
+        margin-left: 40px;
+        margin-bottom: -25px;
+        font-size: 25px;
+    }
+    
+}
