@@ -1,8 +1,8 @@
 :root {
-    --primary-color:#809A6f;
-    --second-color:#A25B5B;
-    --third-color:#CC9C75;
-    --fourth-color:#D5D8B5; 
+    --primary-color:#212121;
+    --second-color:#6D9886;
+    --third-color:#D9CAB3;
+    --fourth-color:#F6F6F6; 
 }
 
 * {
@@ -143,129 +143,7 @@ header nav ul li a:hover {
 
 /* End About Me */
 
-/* Start Work */
-
-.photo-link {
-    width: 80%;
-    min-height: 100%;
-    margin: 4vh auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.photo-link-rb {
-    background: url(../images/hero-bg.jpg);
-    width: 98%;
-    position: relative;
-}
-
-.photo-link-hori {
-    background: url(../images/digital-marketing-meeting.jpg);
-    width: 35%;
-    margin: 20px 0.6rem;
-    position: relative;
-}
-
-.photo-link-port {
-    background: url(../images/guitar_me.jpg);
-    width: 35%;
-    margin: 20px 0.6rem;
-    position: relative;
-}
-
-.photo-link-box {
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    height: 360px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-    position: relative;
-}
-
-.photo-link-text {
-    margin: auto;
-    width: 20%;
-    height: 100px;
-    text-align: center;
-    align-items: flex-end;
-    border-radius: 20%;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.working-web-maintext {
-    font-size: 20px;
-}
-
-.working-web-othertext {
-    font-size: 15px;
-}
-
-.photo-link-rb button {
-    height: 360px;
-    width: 100%;
-    background-color: transparent;
-    font-size: 30px;
-}
-
-.photo-link-text a button {
-    padding: 10px 15px;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 0%;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.photo-link-text a button:hover {
-    background-color: rgba(162, 91, 91, 0.5);
-}
-
-/* End Work Section */
-
-
-/* Contact Footer*/
-.reach-me {
-    background: var(--second-color);
-    padding-top: 20px;
-    font-size: 20px;
-    padding-bottom: 20px;
-    margin: 25px auto;
-    width: 95%;
-    border-radius: 5%;
-}
-
-.reach-me h2 {
-    color: var(--fourth-color);
-    padding-left: 10px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    text-shadow: 0 0 10px rgba(236, 155, 59, 0.8);
-    text-decoration: underline;
-    text-decoration-color: var(--third-color);
-
-}
-
-address {
-    background-color: var(--second-color);
-    color: var(--primary-color);
-    width: 100%;
-    text-align: center;
-}
-
-address a:hover {
-    color: var(--fourth-color);
-    background-color: var(--third-color);
-}
-
-/* End Contact Section */
-
-/* CAUTION!! WORK IN PROGRESS */
+/* Start Work Section */
 
 .worker-webs {
     width: 80%;
@@ -299,11 +177,11 @@ address a:hover {
 }
 
 .worker-webs-img:nth-child(2) {
-    width: 30%
+    width: 40%
 }
 
 .worker-webs-img:nth-child(3) {
-    width: 30%;
+    width: 40%;
 }
 
 .rb-img-working {
@@ -357,16 +235,54 @@ address a:hover {
     opacity: .8;
 }
 
+/* End Work Section */
+
+/* Contact Footer*/
+.reach-me {
+    background: var(--second-color);
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin: 25px auto;
+    width: 95%;
+    border-radius: 5%;
+}
+
+.reach-me h2 {
+    color: var(--fourth-color);
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(236, 155, 59, 0.8);
+    text-decoration: underline;
+    text-decoration-color: var(--third-color);
+
+}
+
+address {
+    background-color: var(--second-color);
+    color: var(--primary-color);
+    width: 100%;
+    text-align: center;
+}
+
+address a:hover {
+    color: var(--fourth-color);
+    background-color: var(--third-color);
+}
+
+/* End Contact Section */
 
 
 @media screen and (max-width: 980px) {
-    
-    .photo-link-hori {
-        width: 45%;
+
+    .worker-webs-img:nth-child(2) {
+        width: 40%;
     }
 
-    .photo-link-port {
-        width: 45%;
+    .worker-webs-img:nth-child(3) {
+        width: 40%;
     }
 
 }
@@ -419,14 +335,6 @@ address a:hover {
 
     .photo-link-rb {
         margin-bottom: 20px;
-    }
-
-    .photo-link-hori {
-        width: 90%;
-    }
-
-    .photo-link-port {
-        width: 90%;
     }
 
     .worker-webs-img:nth-child(2) {
