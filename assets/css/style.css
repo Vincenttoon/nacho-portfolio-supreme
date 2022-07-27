@@ -203,20 +203,26 @@ header nav ul li a:hover {
     font-size: 15px;
 }
 
+.photo-link-rb button {
+    height: 360px;
+    width: 100%;
+    background-color: transparent;
+    font-size: 30px;
+}
+
 .photo-link-text a button {
     padding: 10px 15px;
-    background-color: rgba(162, 91, 91, 0.6);
     background-repeat: no-repeat;
     border: none;
     border-radius: 0%;
     cursor: pointer;
-    position:absolute;
+    position: absolute;
     right: 0;
     bottom: 0;
 }
 
 .photo-link-text a button:hover {
-    background-color: var(--second-color);
+    background-color: rgba(162, 91, 91, 0.5);
 }
 
 /* End Work Section */
@@ -262,12 +268,25 @@ address a:hover {
 /* CAUTION!! WORK IN PROGRESS */
 
 .worker-webs {
-    width: 90%;
+    width: 80%;
     min-height: 100%;
     margin: 4vh auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.worker-webs {
+    margin: 20px auto;
+}
+
+.working-box {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 360px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    position: relative;
 }
 
 .worker-webs-img {
@@ -283,10 +302,35 @@ address a:hover {
 
 .runb-text {
     position: absolute;
+    bottom: 10px;
+    right: 25px;
+}
+
+.hori-img-working {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    position: relative;
+}
+
+.hori-text {
+    position: absolute;
     bottom: 0;
     right: 10px;
 }
 
+.port-img-working {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    position: relative;
+}
+
+.port-text {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
 
 
 
