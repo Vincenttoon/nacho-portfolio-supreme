@@ -3,7 +3,7 @@
 ### Challange 2
 
 ## Live Deployment Link
-[link](https://vincenttoon.github.io/nacho-portfolio-supreme/)
+[https://vincenttoon.github.io/nacho-portfolio-supreme/](Vincent Toon's Portfolio)
 
 ## Instructions for Challenge
 
@@ -11,7 +11,7 @@ Create a personal portfolio from scratch. This portfolio displays hover function
 
 ## Deployment Team
 
-[link](https://github.com/Vincenttoon)Vincent Toon
+[https://github.com/Vincenttoon)](Vincent Toon)Vincent Toon
 
 ### User Story
  - AS AN employer
