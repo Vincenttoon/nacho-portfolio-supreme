@@ -294,6 +294,10 @@ address a:hover {
     margin: 20px;
 }
 
+.worker-webs-img:hover {
+    opacity: .6;
+}
+
 .worker-webs-img:nth-child(2) {
     width: 30%
 }
@@ -307,25 +311,33 @@ address a:hover {
     height: 360px;
     display: flex;
     position: relative;
+    border-radius: 10%;
 }
 
 .runb-text {
     position: absolute;
     bottom: 10px;
     right: 25px;
+    font-size: 30px;
+    color: white;
+    opacity: .8;
 }
 
-.hori-img-working {
+.secondary-img-working {
     width: 100%;
     height: 360px;
     display: flex;
     position: relative;
+    border-radius: 10%;
 }
 
-.hori-text {
+.secondary-text {
     position: absolute;
     bottom: 0;
     right: 10px;
+    font-size: 20px;
+    color: white;
+    opacity: .8;
 }
 
 .port-img-working {
@@ -333,12 +345,16 @@ address a:hover {
     height: 360px;
     display: flex;
     position: relative;
+    border-radius: 10%;
 }
 
 .port-text {
     position: absolute;
     bottom: 0;
     right: 10px;
+    font-size: 20px;
+    color: white;
+    opacity: .8;
 }
 
 
@@ -385,6 +401,15 @@ address a:hover {
         justify-content: space-between;
         margin-bottom: -30px;
         font-size: 30px;
+    }
+
+
+    .worker-webs-img:nth-child(2) {
+        width: 40%;
+    }
+
+    .worker-webs-img:nth-child(3) {
+        width: 40%;
     }
 
 
