@@ -291,6 +291,15 @@ address a:hover {
 
 .worker-webs-img {
     position: relative;
+    margin: 20px;
+}
+
+.worker-webs-img:nth-child(2) {
+    width: 30%
+}
+
+.worker-webs-img:nth-child(3) {
+    width: 30%;
 }
 
 .rb-img-working {
@@ -393,6 +402,14 @@ address a:hover {
 
     .photo-link-port {
         width: 90%;
+    }
+
+    .worker-webs-img:nth-child(2) {
+        width: 80%;
+    }
+
+    .worker-webs-img:nth-child(3) {
+        width: 80%;
     }
     
     address {
