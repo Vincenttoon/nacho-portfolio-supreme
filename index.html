@@ -3,6 +3,9 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>            <meta charset="UTF-8">
         <title>Vincent's Landing</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>    
     
@@ -18,7 +21,10 @@
                         <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="#personal-work">Work</a>
+                        <a href="#featured-applications">Featured Applications</a>
+                    </li>
+                    <li>
+                        <a href="#more-projects">More Projects</a>
                     </li>
                     <li>
                         <a href="#contact-info">Contact</a>
@@ -59,49 +65,53 @@
     <!-- End About Me Section  -->
     
     <!-- Start Work Section -->
-        <section id="personal-work" class="working-web">
+        <section id="featured-applications" class="working-web">
             <h2 class="section-title-2">
-                Work
+                Featured Applications:
             </h2>
             
             <div class="worker-webs">
 
-                <div class="worker-webs-img">
-                    <a href="https://vincenttoon.github.io/brewery-finder/">
-                        <img src="./assets/images/post-search.png" alt="Find your Brew Homescreen" class="rb-img-working working-box">
-                        <div class="fyb-text">
-                            <h4>Find Your Brew</h4><p>HTML, CSS, JS, Jquery, Bulma</p>
-                        </div>
-                    </a>
+                <div class="d-flex flex-wrap flex-column">
+                    <div class="worker-webs-img d-flex flex-wrap">
+                        <a href="https://vincenttoon.github.io/brewery-finder/">
+                            <img src="./assets/images/post-search.png" alt="Find your Brew Homescreen" class="rb-img-working working-box">
+                            <div class="fyb-text">
+                                <h4>Find Your Brew</h4><p>HTML, CSS, JS, Jquery, Bulma</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
-                <div class="worker-webs-img">
-                    <a href="https://vincenttoon.github.io/run-buddy-new/">
-                        <img src="./assets/images/hero-bg.jpg" alt="runner tying shoe" class="secondary-img-working working-box">
-                        <div class="secondary-text">
-                            <h4>Run Buddy</h4><p>HTML & CSS</p>
-                        </div>
-                    </a>
-                </div>
+        </section>
 
-                <div class="worker-webs-img">
-                    <a href="https://vincenttoon.github.io/horiseon-zero-dawn/">
-                        <img src="./assets/images/digital-marketing-meeting400.jpg" alt="digital marketing team meeting at table" class="secondary-img-working working-box">
-                        <div class="secondary-text">
-                            <h4>Horiseon</h4><p>HTML & CSS</p>
+        <section id="more-projects" class="working-web">
+            <h2 class="section-title-2">
+                More Projects:
+            </h2>
+            <!--
+                    <div class="link-to-pages d-flex flex-wrap">
+                        <h2 class="text-center">Project Titles</h2>
+                    </div> -->
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="worker-webs-img col-3">
+                            <a href="./challenges.html">
+                                <img src="./assets/images/working-ani.jpg" alt="digital marketing team meeting at table" class="secondary-img-working working-box">
+                                <div class="secondary-text">
+                                    <p>Bootcamp Challenges</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-
-                <div class="worker-webs-img">
-                    <a href="https://vincenttoon.github.io/nacho-portfolio-supreme/">
-                        <img src="./assets/images/guitar_me400.jpg" alt="me shredding strings" class="secondary-img-working working-box">
-                        <div class="secondary-text">
-                            <h4>My Portfolio</h4><p>HTML & CSS</p>
+                        <div class="worker-webs-img col-3">
+                            <a href="./modules.html">
+                                <img src="./assets/images/wash-u-text.jpg" alt="Wash U Seal" class="secondary-img-working working-box">
+                                <div class="secondary-wash-text">
+                                    <p>Assigned Lessons</p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                    </div>
                 </div>
-            </div>
         </section>
     
          <!-- Contact Section -->
@@ -111,9 +121,9 @@
                 </h2>
             </div>
             <address>
-                Phone: <a href="tel:618.972.9547">618.972.9547</a>
-                Email: <a href="mailto://vincenttoon22@gmail.com">vincenttoon22@gmail.com</a>
-                Github: <a href="https://github.com/Vincenttoon">Vincent Toon</a>
+                <i class="fas fa-solid fa-phone"></i>  <a href="tel:618.972.9547"> 618.972.9547</a>
+                <i class="fas fa-solid fa-envelope"></i> <a href="mailto://vincenttoon22@gmail.com">vincenttoon22@gmail.com</a>
+                <i class="fab fa-github"></i> <a href="https://github.com/Vincenttoon">Vincent Toon</a>
             </address>
          </section>
          <!-- End Contact Section -->
