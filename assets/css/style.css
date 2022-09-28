@@ -196,6 +196,15 @@ header nav ul li a:hover {
     margin: 20px;
 }
 
+.img-link {
+    position: relative;
+    margin: 20px;
+}
+
+.img-link:hover {
+    opacity: .6;
+}
+
 .worker-webs-img:hover {
     opacity: .6;
 }
@@ -411,6 +420,10 @@ address a:hover {
     .worker-webs-img:nth-child(3) {
         width: 80%;
     }
+
+    .worker-webs-img {
+        width: 80%;
+    }
     
     address {
         font-size: 18px;
@@ -424,6 +437,14 @@ address a:hover {
         margin-left: 40px;
         margin-bottom: -25px;
         font-size: 25px;
+    }
+    
+    img {
+        width: 80%
+    }
+
+    .reach-me {
+        width: 100%;
     }
     
 }
