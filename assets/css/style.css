@@ -42,7 +42,7 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: var(--second-color);
-    margin: 0;
+    margin: 0 auto;
     text-shadow: 0 0 10px rgba(247, 215, 22, 0.5);
 }
 
@@ -218,7 +218,7 @@ header nav ul li a:hover {
 }
 
 .rb-img-working {
-    width: 100%;
+    width: 800px;
     height: 400px;
     display: flex;
     position: relative;
@@ -361,6 +361,10 @@ address a:hover {
         width: 40%;
     }
 
+    .rb-img-working {
+        width: 600px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -402,6 +406,10 @@ address a:hover {
 
     .worker-webs-img:nth-child(3) {
         width: 40%;
+    }
+
+    .rb-img-working {
+        width: 400px;
     }
 
 
